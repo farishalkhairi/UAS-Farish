@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info"
+    android:background="#7FFFD4">
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageviewfoto"
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/dbd" />
+
+            <TextView
+                android:id="@+id/rumahsakit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text="Kemenkes: Kasus DBD Januari Hingga Juli 2020 Capai Angka 71.633"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="325dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:padding="7dp"
+                android:text="Direktur Pencegahan dan Pengendalian Penyakit Tular Vektor dan Zoonotik Kementerian Kesehatan RI dr. Siti Nadia Tarmizi, M.Epid menyampaikan update data Demam Berdarah Dengue (DBD) minggu ke-28 tahun 2020. Menurutnya kasus kumulatif DBD hingga 8 Juli mencapai 71.633 kasus.
+Menurutnya, 10 provinsi dengan tingkat kasus tertinggi adalah Jawa Barat dengan 10.772 kasus, Bali 8.930 kasus, Jawa Timur 5.948 kasus, Nusa Tenggara Timur 5.539 kasus, Lampung 5.135 kasus, DKI Jakarta 4.227 kasus.
+Ada 3.796 kasus DBD di Nusa Tenggara Barat, Jawa Tengah 2.846 kasus, DI Yogyakarta 2.720 kasus, dan Riau 2.255 kasus.
+“Kalau dibandingkan dengan data 2019, jumlah ini lebih rendah,” ujar Nadia dalam webminar Kementerian Kesehatan, Kamis (9/7/2020).
+Menurut data kasus DBD periode Januari-Juli dari 2017-2020 kasus DBD mengalami naik turun. Pada 2-17 total kasus sebanyak 35.101, pada 2018 turun menjadi 21.861 kasus. Lonjakan terjadi di 2019 dengan 112.954 kasus, dan di tahun ini turun lagi hingga 71.633 kasus.
+"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
