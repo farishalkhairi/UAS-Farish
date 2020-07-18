@@ -4,6 +4,8 @@ UAS Farish Al Khairi - 311710519
 
 Link Youtube            https://youtu.be/czLEA_9E69I
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/czLEA_9E69I)
+
 
 Screenshot Demo Aplikasi
 
