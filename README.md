@@ -1,6 +1,10 @@
 # UAS-Farish
 UAS Farish Al Khairi - 311710519
 
+
+Link Youtube            https://youtu.be/czLEA_9E69I
+
+
 Screenshot Demo Aplikasi
 
 
